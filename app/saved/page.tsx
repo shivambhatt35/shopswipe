@@ -1,8 +1,8 @@
 "use client";
 
-import { NavBar } from "@/components/NavBar";
-import { domains, lowestOffer } from "@/lib/catalog";
-import { useShopSession } from "@/lib/session-context";
+import { NavBar } from "@/components/navigation/NavBar";
+import { domains, lowestOffer } from "@/lib/catalog/catalog";
+import { useShopSession } from "@/lib/session/session-context";
 import Link from "next/link";
 
 export default function SavedPage() {

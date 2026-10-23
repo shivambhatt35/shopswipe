@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Outfit } from "next/font/google";
-import { AuthGate } from "@/components/AuthGate";
+import { AuthGate } from "@/components/auth/AuthGate";
 import { Providers } from "./providers";
 import "./globals.css";
 

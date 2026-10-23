@@ -13,8 +13,8 @@ function load(file) {
   new Function("module", "exports", "require", code)(loaded, loaded.exports, require);
   return loaded.exports;
 }
-const { products, domains, allDomainIds, allSubdomainIds, lowestOffer } = load("lib/catalog.ts");
-const { filterDeck, swipeAction } = load("lib/discovery.ts");
+const { products, domains, allDomainIds, allSubdomainIds, lowestOffer } = load("lib/catalog/catalog.ts");
+const { filterDeck, swipeAction } = load("lib/catalog/discovery.ts");
 const session = () => ({ selectedDomains: [...allDomainIds], selectedSubdomains: [...allSubdomainIds], rejectedIds: [], savedByDomain: Object.fromEntries(allDomainIds.map(id => [id, []])) });
 test("all domains and subdomains are selected by default", () => {
   assert.equal(filterDeck(products, session()).length, products.length);

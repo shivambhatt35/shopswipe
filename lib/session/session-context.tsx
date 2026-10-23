@@ -9,10 +9,10 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { allDomainIds, allSubdomainIds, productById } from "./catalog";
-import { readJson, writeJson } from "./storage";
-import type { DomainId, Product, SessionState } from "./types";
-import { useAuth } from "./auth-context";
+import { allDomainIds, allSubdomainIds, productById } from "@/lib/catalog/catalog";
+import { readJson, writeJson } from "@/lib/storage/browser-storage";
+import type { DomainId, Product, SessionState } from "@/lib/types";
+import { useAuth } from "@/lib/auth/auth-context";
 
 type SessionContextValue = {
   session: SessionState | null;

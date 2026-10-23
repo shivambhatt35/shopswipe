@@ -1,8 +1,8 @@
 "use client";
 
-import { filterDeck, swipeAction } from "@/lib/discovery";
-import { lowestOffer, products } from "@/lib/catalog";
-import { useShopSession } from "@/lib/session-context";
+import { filterDeck, swipeAction } from "@/lib/catalog/discovery";
+import { lowestOffer, products } from "@/lib/catalog/catalog";
+import { useShopSession } from "@/lib/session/session-context";
 import type { Product } from "@/lib/types";
 import { useRouter } from "next/navigation";
 import { useMemo, useRef, useState, type PointerEvent } from "react";

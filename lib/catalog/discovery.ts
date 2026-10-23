@@ -1,4 +1,4 @@
-import type { Product, SessionState } from "./types";
+import type { Product, SessionState } from "@/lib/types";
 
 export function filterDeck(products: Product[], session: SessionState): Product[] {
   const hidden = new Set([...session.rejectedIds, ...Object.values(session.savedByDomain).flat()]);

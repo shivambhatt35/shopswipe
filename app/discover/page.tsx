@@ -1,9 +1,9 @@
 "use client";
 
-import { DomainFilters } from "@/components/DomainFilters";
-import { NavBar } from "@/components/NavBar";
-import { SwipeDeck } from "@/components/SwipeDeck";
-import { useAuth } from "@/lib/auth-context";
+import { DomainFilters } from "@/components/discovery/DomainFilters";
+import { NavBar } from "@/components/navigation/NavBar";
+import { SwipeDeck } from "@/components/discovery/SwipeDeck";
+import { useAuth } from "@/lib/auth/auth-context";
 
 export default function DiscoverPage() {
   const { user, logout } = useAuth();

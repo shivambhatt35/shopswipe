@@ -1,4 +1,4 @@
-import type { Domain, Product } from "./types";
+import type { Domain, Product } from "@/lib/types";
 
 export const domains: Domain[] = [
   {

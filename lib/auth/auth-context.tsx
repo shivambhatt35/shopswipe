@@ -9,8 +9,8 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import type { User } from "./types";
-import { readJson, removeKey, writeJson } from "./storage";
+import type { User } from "@/lib/types";
+import { readJson, removeKey, writeJson } from "@/lib/storage/browser-storage";
 
 type StoredAccount = User & { passwordHash?: string; salt?: string };
 

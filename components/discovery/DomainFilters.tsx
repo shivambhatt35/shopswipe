@@ -1,7 +1,7 @@
 "use client";
 
-import { domains } from "@/lib/catalog";
-import { useShopSession } from "@/lib/session-context";
+import { domains } from "@/lib/catalog/catalog";
+import { useShopSession } from "@/lib/session/session-context";
 import { useState } from "react";
 
 export function DomainFilters() {

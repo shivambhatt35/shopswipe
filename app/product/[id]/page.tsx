@@ -1,7 +1,7 @@
 "use client";
 
-import { NavBar } from "@/components/NavBar";
-import { lowestOffer, productById } from "@/lib/catalog";
+import { NavBar } from "@/components/navigation/NavBar";
+import { lowestOffer, productById } from "@/lib/catalog/catalog";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 

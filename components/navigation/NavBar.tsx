@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useShopSession } from "@/lib/session-context";
+import { useShopSession } from "@/lib/session/session-context";
 
 const items = [
   { href: "/discover", label: "Discover" },
