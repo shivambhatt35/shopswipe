@@ -1,6 +1,6 @@
 # ShopSwipe
 
-Tinder for shopping: discover products by category, swipe to skip or save, and super-like to compare retailer offers.
+Tinder for shopping: discover products by category, swipe to skip or save, and super-like to compare retailer offers
 
 ## Current checkpoint
 
